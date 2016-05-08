@@ -1,6 +1,19 @@
 <form method='POST' action = ''>{% csrf_token%}
 
-{{form}}
+
+Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+{{form.email}}
+{{form.email.errors}}
+<br><br><br>
+
+Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+{{form.subject}}
+{{form.subject.errors}}
+<br><br><br>
+
+Message:&nbsp;&nbsp;&nbsp;
+{{form.message}}
+{{form.message.errors}}
 
 <input type='submit' value='Submit' />
 </form>

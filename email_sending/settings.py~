@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'yourpassword'
+EMAIL_HOST_USER = 'your_email_id'
+EMAIL_HOST_PASSWORD = 'your_password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
